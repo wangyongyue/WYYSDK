@@ -97,6 +97,7 @@
 		0030DA4A2A24A159001B6261 /* WYYSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0030DA7B2A25927C001B6261 /* Resources */,
 				0030DA4B2A24A159001B6261 /* AppDelegate.swift */,
 				0030DA4F2A24A159001B6261 /* ViewController.swift */,
 				0030DA512A24A159001B6261 /* Main.storyboard */,
@@ -122,6 +123,13 @@
 				0030DA6E2A24A15C001B6261 /* WYYSDKUITestsLaunchTests.swift */,
 			);
 			path = WYYSDKUITests;
+			sourceTree = "<group>";
+		};
+		0030DA7B2A25927C001B6261 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
