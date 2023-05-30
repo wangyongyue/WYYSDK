@@ -12,5 +12,12 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/wangyongyue/WYYSDK.git", :tag => "#{spec.version}" }
   spec.source_files = "WYYSDK/Resources/**/*.swift"
   spec.requires_arc = true
+   spec.user_target_xcconfig = {
+        'GENERATE_INFOPLIST_FILE' => 'YES'
+    }
+
+    spec.pod_target_xcconfig = {
+        'GENERATE_INFOPLIST_FILE' => 'YES'
+    }
   
 end
