@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WYYSDK"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "WYYSDK "
   spec.homepage     = "https://github.com/wangyongyue/WYYSDK"
   spec.license      = "MIT"
